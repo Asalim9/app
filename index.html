@@ -1,3 +1,56 @@
+
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168896467-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-168896467-1');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moddakir</title>
+
+</head>
+<body>
+   
+</body>
+</html>
    <script>
-       console.log("Hi");
+      
+        var isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function() {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function() {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };
+
+        if ( isMobile.Android() ) {
+            document.location.href = "https://play.google.com/store/apps/details?id=com.moddakir.moddakir&hl=ar&gl=US";
+        }
+        else if(isMobile.iOS())
+        {
+            document.location.href="https://apps.apple.com/us/app/moddakir/id1492246697";
+        }else{
+            document.location.href="https://moddakir.com/";
+        }
+        
+   
+
     </script>
