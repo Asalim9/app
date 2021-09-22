@@ -14,6 +14,13 @@
     <P>Hiiiiiiiiii</p>
   
   <script>
+    
+    setTimeout(function(){
+    console.log("I am the third log after 5 seconds");
+    },5000);
+    
+    
+    
         var isMobile = {
             Android: function() {
                 return navigator.userAgent.match(/Android/i);
@@ -36,26 +43,16 @@
         };
     
     
-                    function stateChange() {
-                      setTimeout(function () {
-                      
-                        
-                         if ( isMobile.Android() ) {
+         if ( isMobile.Android() ) {
             document.location.href = "https://play.google.com/store/apps/details?id=com.moddakir.moddakir";
         }
         else if(isMobile.iOS())
         {
             document.location.href="https://apps.apple.com/sa/app/%D8%B4%D8%A7%D9%83-%D8%A8%D8%B1%D8%AC%D8%B1/id1492246697?l=ar";
         }else{
-            document.location.href="https://moddakir.com/";
-        }
-                        
-                        
-                        
-                      }, 5000);}
-
-       
-    stateChange();
+            document.location.href="https://moddakir.com/";                
+    
+    
     </script>
 
 </body>
