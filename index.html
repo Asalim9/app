@@ -34,8 +34,13 @@
                 return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
             }
         };
-
-        if ( isMobile.Android() ) {
+    
+    
+                    function stateChange(newState) {
+                      setTimeout(function () {
+                      
+                        
+                         if ( isMobile.Android() ) {
             document.location.href = "https://play.google.com/store/apps/details?id=com.moddakir.moddakir";
         }
         else if(isMobile.iOS())
@@ -44,6 +49,12 @@
         }else{
             document.location.href="https://moddakir.com/";
         }
+                        
+                        
+                        
+                      }, 30000);}
+
+       
     </script>
 
 </body>
