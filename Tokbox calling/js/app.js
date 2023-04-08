@@ -7,17 +7,17 @@ var token = "T1==cGFydG5lcl9pZD00NzY5NjM0MSZzaWc9N2UzN2M2NzMxMWU4MmQxNTIzOThiZGM
 
 
 // (optional) add server code here
-//initializeSession();
+initializeSession();
 
-var SERVER_BASE_URL = 'https://moddakirkids.herokuapp.com';
-fetch(SERVER_BASE_URL + '/session').then(function (res) {
-    return res.json()
-}).then(function (res) {
-    apiKey = res.apiKey;
-    sessionId = res.sessionId;
-    token = res.token;
-    initializeSession();
-}).catch(handleError);
+// var SERVER_BASE_URL = 'https://moddakirkids.herokuapp.com';
+// fetch(SERVER_BASE_URL + '/session').then(function (res) {
+//     return res.json()
+// }).then(function (res) {
+//     apiKey = res.apiKey;
+//     sessionId = res.sessionId;
+//     token = res.token;
+//     initializeSession();
+// }).catch(handleError);
 
 
 
