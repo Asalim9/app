@@ -5,8 +5,6 @@ var token = "T1==cGFydG5lcl9pZD00NzY5NjM0MSZzaWc9N2UzN2M2NzMxMWU4MmQxNTIzOThiZGM
 
 
 
-//secret f86b48113aa5f74e71704e3c9e9ad4bf5d5f821a
-
 
 // (optional) add server code here
 //initializeSession();
