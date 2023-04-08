@@ -1,7 +1,9 @@
 // replace these values with those generated in your TokBox Account
-var apiKey = "47241704";
+//var apiKey = "47241704";
+var apiKey = "4102714";
 var sessionId = "1_MX40NzI0MTcwNH5-MTYyMjIwNjkzMzI5N352amcrckZWbzZTLzM3cmRqVmxaQ1NodXh-fg";
-var token = "6c8b1deb3f04a41544a69466c29ea8b9916e6ea3";
+//var token = "6c8b1deb3f04a41544a69466c29ea8b9916e6ea3";
+var token = "c4bc9a8e9fb12536b60b92252c98637dc026e921"
 
 // (optional) add server code here
 //initializeSession();
